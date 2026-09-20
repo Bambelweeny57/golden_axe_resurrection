@@ -1,30 +1,67 @@
-# Golden= Axe I Resurrection
+<p align="center">
+  <img src="Images/golden-axe-banner.png" width="100%" alt="Golden Axe Resurrection Banner">
+</p>
 
-Resurrection ROM Kit for Sega Golden Axe I.
+# 🪓 Golden Axe Resurrection
+### A full revival ROM kit for the Sega *Golden Axe* arcade PCB
 
-Replace ROMS 12388A1 and 12389A2 with these (M27C2001) and the Hitachi Battery Backed Encryption 68000 CPU with a standard 8/10mhz 68000 to bring it back to life.
-
+Bring dead Golden Axe boards back to life by replacing the encrypted Sega MC68000 CPU and protected ROMs with clean, unencrypted Resurrection ROMs.
 
 ---
 
-## 68000 Replacement
-The Sega combine MC68000 and Copy Protection chip was replaced with a stock MC68000-10.
-<img src="https://github.com/Bambelweeny57/golden_axe_resurrection/blob/main/Images/IMG_2152.jpeg" width="400">
+## 📜 Overview
 
+Golden Axe arcade hardware uses a battery-backed encryption module.  
+When the battery dies, the board becomes non-functional.
 
-## ROM Replacment
+This project provides:
 
-ROMS A1 and A2 are replaced with the Resurrection ROMS without the Copy Protection.
-<img src="https://github.com/Bambelweeny57/golden_axe_resurrection/blob/main/Images/IMG_2153.jpeg" width="400">
+- CPU replacement instructions  
+- Resurrection ROMs  
+- JAMMA conversion notes  
+- Photos and documentation
 
+---
 
-## Resurrected Board
+## 🧠 CPU & ROM Replacement
 
-The completed board was JAMMA converted to allow me to play it in my cab.
-<img src="https://github.com/Bambelweeny57/golden_axe_resurrection/blob/main/Images/IMG_2151.jpeg" width="400">
+See:
 
-<img src="https://github.com/Bambelweeny57/golden_axe_resurrection/blob/main/Images/arcade-golden-axe-screen1.png" width="400">
-<img src="https://github.com/Bambelweeny57/golden_axe_resurrection/blob/main/Images/arcade-golden-axe-screen2.png" width="400">
+- `/Docs/CPU_Replacement.md`  
+- `/Docs/ROM_Programming.md`
+
+---
+
+## 🎮 JAMMA Conversion
+
+See `/Docs/JAMMA_Conversion.md`.
+
+---
+
+## 🖼️ Screenshots
+
+<p float="left">
+  <img src="Images/arcade-golden-axe-screen1.png" width="300" />
+  <img src="Images/arcade-golden-axe-screen2.png" width="300" />
+</p>
+
+---
+
+## 📁 Repository Structure
+
+```
+/ROMs
+/Images
+/Docs
+README.md
+```
+
+---
+
+## 👾 Preservation
+
+This project exists to keep classic arcade hardware preserved.  
+Contributions welcome.
 
 
 
